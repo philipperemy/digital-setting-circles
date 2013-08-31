@@ -1,0 +1,202 @@
+# depslib dependency file v1.0
+1377123133 source:c:\users\philippe rémy\desktop\dsc\dsc\main.cpp
+	<iostream>
+	"MathLib.h"
+	"Calc.h"
+
+1377118514 source:c:\users\philippe rémy\desktop\dsc\dsc\calc.c
+	"MathLib.h"
+	"calc.h"
+
+1377120818 c:\users\philippe rémy\desktop\dsc\dsc\mathlib.h
+	<cmath>
+
+1377120178 c:\users\philippe rémy\desktop\dsc\dsc\calc.h
+	<stdbool.h>
+	<string>
+
+1377118454 source:c:\users\philippe rémy\desktop\dsc\dsc\mathlib.c
+	"MathLib.h"
+
+1377122183 source:c:\users\philippe rémy\desktop\dsc\dsc\mathlib.cpp
+	"MathLib.h"
+	<math.h>
+
+1377122480 source:c:\users\philippe rémy\desktop\dsc\dsc\calc.cpp
+	"MathLib.h"
+	"Calc.h"
+	<iostream>
+
+1377122480 source:c:\cpp\dsc\calc.cpp
+	"MathLib.h"
+	"Calc.h"
+	<iostream>
+
+1377958940 c:\cpp\dsc\mathlib.h
+
+1377120178 c:\cpp\dsc\calc.h
+	<stdbool.h>
+	<string>
+
+1377976091 source:c:\cpp\dsc\main.cpp
+	<iostream>
+	"MathLib.h"
+	"Calc.h"
+	"StarData.h"
+	"Encoder.h"
+	"Test.h"
+
+1377958935 source:c:\cpp\dsc\mathlib.cpp
+	"MathLib.h"
+	<math.h>
+	<cmath>
+
+1377864610 source:c:\cpp\dsc\stardata.cpp
+	"StarData.h"
+
+1377979152 c:\cpp\dsc\stardata.h
+	<stdbool.h>
+	"MathLib.h"
+	<cmath>
+
+1377987397 source:c:\cpp\dsc\data.cpp
+	"Data.h"
+	<cmath>
+
+1377987319 c:\cpp\dsc\data.h
+	<stdbool.h>
+	<string>
+	"MathLib.h"
+	"StarData.h"
+	"Utils.h"
+	"Calc.h"
+
+1377986014 source:c:\cpp\dsc\encoder.cpp
+	"Encoder.h"
+
+1377985574 c:\cpp\dsc\encoder.h
+	<vector>
+	<ostream>
+	<iostream>
+	"WiringPiStub.c"
+
+1377979274 c:\cpp\dsc\wiringpistub.c
+
+1377979274 source:c:\cpp\dsc\wiringpistub.c
+
+1377122480 source:c:\users\premy\cpp\dsc\calc.cpp
+	"MathLib.h"
+	"Calc.h"
+	<iostream>
+
+1377364342 c:\users\premy\cpp\dsc\mathlib.h
+	<cmath>
+
+1377120178 c:\users\premy\cpp\dsc\calc.h
+	<stdbool.h>
+	<string>
+
+1377863633 source:c:\users\premy\cpp\dsc\data.cpp
+	"Data.h"
+
+1377863634 c:\users\premy\cpp\dsc\data.h
+	<stdbool.h>
+	<string>
+	"MathLib.h"
+	"StarData.h"
+	"Utils.h"
+
+1377864410 c:\users\premy\cpp\dsc\stardata.h
+	<stdbool.h>
+	"MathLib.h"
+
+1377376787 source:c:\users\premy\cpp\dsc\encoder.cpp
+	"Encoder.h"
+
+1377376921 c:\users\premy\cpp\dsc\encoder.h
+	<vector>
+	<ostream>
+	<iostream>
+	"WiringPiStub.c"
+
+1377376973 c:\users\premy\cpp\dsc\wiringpistub.c
+
+1377376802 source:c:\users\premy\cpp\dsc\main.cpp
+	<iostream>
+	"MathLib.h"
+	"Calc.h"
+	"StarData.h"
+	"Encoder.h"
+
+1377364321 source:c:\users\premy\cpp\dsc\mathlib.cpp
+	"MathLib.h"
+	<math.h>
+
+1377864610 source:c:\users\premy\cpp\dsc\stardata.cpp
+	"StarData.h"
+
+1377376973 source:c:\users\premy\cpp\dsc\wiringpistub.c
+
+1377865039 c:\users\premy\cpp\dsc\utils.h
+	<stdbool.h>
+	"StarData.h"
+
+1377864956 source:c:\users\premy\cpp\dsc\utils.cpp
+	"Utils.h"
+	"MathLib.h"
+	"Calc.h"
+
+1377978484 source:c:\cpp\dsc\utils.cpp
+	<time.h>
+	"Utils.h"
+	"MathLib.h"
+	"Calc.h"
+	<unistd.h>
+	<windows.h>
+
+1377978862 c:\cpp\dsc\utils.h
+	<stdbool.h>
+	"StarData.h"
+
+1377989077 c:\cpp\dsc\test.h
+	<stdbool.h>
+	"StarData.h"
+	"TestCase.h"
+	<string>
+
+1377992713 source:c:\cpp\dsc\test.cpp
+	<iostream>
+	"Test.h"
+	"TestCase.h"
+	"Utils.h"
+	"MathLib.h"
+	"Calc.h"
+	"Encoder.h"
+	"Data.h"
+	"Object.h"
+
+1377890779 c:\cpp\dsc\testexception.h
+	<iostream>
+	<sstream>
+	<exception>
+	<string>
+
+1377975598 c:\cpp\dsc\testcase.h
+	<stdbool.h>
+	"StarData.h"
+	<string>
+
+1377951525 source:c:\cpp\dsc\testcase.cpp
+	"TestCase.h"
+	"TestException.h"
+	<cmath>
+	<sstream>
+
+1377992922 source:c:\cpp\dsc\object.cpp
+	"Object.h"
+	<iostream>
+
+1377992705 c:\cpp\dsc\object.h
+	<string>
+	<vector>
+

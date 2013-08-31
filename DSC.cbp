@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DSC" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DSC" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DSC" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Calc.cpp" />
+		<Unit filename="Calc.h" />
+		<Unit filename="Data.cpp" />
+		<Unit filename="Data.h" />
+		<Unit filename="Encoder.cpp" />
+		<Unit filename="Encoder.h" />
+		<Unit filename="MathLib.cpp" />
+		<Unit filename="MathLib.h" />
+		<Unit filename="StarData.cpp" />
+		<Unit filename="StarData.h" />
+		<Unit filename="TestCase.cpp" />
+		<Unit filename="TestCase.h" />
+		<Unit filename="Object.cpp" />
+		<Unit filename="Object.h" />
+		<Unit filename="Test.cpp" />
+		<Unit filename="Test.h" />
+		<Unit filename="TestException.h" />
+		<Unit filename="Utils.cpp" />
+		<Unit filename="Utils.h" />
+		<Unit filename="WiringPiStub.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
