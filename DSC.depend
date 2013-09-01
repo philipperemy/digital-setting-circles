@@ -200,3 +200,114 @@
 	<string>
 	<vector>
 
+1377122480 source:c:\cpp\dsc\digitalsettingcircles\calc.cpp
+	"MathLib.h"
+	"Calc.h"
+	<iostream>
+
+1377958940 c:\cpp\dsc\digitalsettingcircles\mathlib.h
+
+1377120178 c:\cpp\dsc\digitalsettingcircles\calc.h
+	<stdbool.h>
+	<string>
+
+1377987397 source:c:\cpp\dsc\digitalsettingcircles\data.cpp
+	"Data.h"
+	<cmath>
+
+1377987319 c:\cpp\dsc\digitalsettingcircles\data.h
+	<stdbool.h>
+	<string>
+	"MathLib.h"
+	"StarData.h"
+	"Utils.h"
+	"Calc.h"
+
+1377979152 c:\cpp\dsc\digitalsettingcircles\stardata.h
+	<stdbool.h>
+	"MathLib.h"
+	<cmath>
+
+1377978862 c:\cpp\dsc\digitalsettingcircles\utils.h
+	<stdbool.h>
+	"StarData.h"
+
+1377986014 source:c:\cpp\dsc\digitalsettingcircles\encoder.cpp
+	"Encoder.h"
+
+1377985574 c:\cpp\dsc\digitalsettingcircles\encoder.h
+	<vector>
+	<ostream>
+	<iostream>
+	"WiringPiStub.c"
+
+1377979274 c:\cpp\dsc\digitalsettingcircles\wiringpistub.c
+
+1377976091 source:c:\cpp\dsc\digitalsettingcircles\main.cpp
+	<iostream>
+	"MathLib.h"
+	"Calc.h"
+	"StarData.h"
+	"Encoder.h"
+	"Test.h"
+
+1377989077 c:\cpp\dsc\digitalsettingcircles\test.h
+	<stdbool.h>
+	"StarData.h"
+	"TestCase.h"
+	<string>
+
+1377975598 c:\cpp\dsc\digitalsettingcircles\testcase.h
+	<stdbool.h>
+	"StarData.h"
+	<string>
+
+1377958935 source:c:\cpp\dsc\digitalsettingcircles\mathlib.cpp
+	"MathLib.h"
+	<math.h>
+	<cmath>
+
+1377864610 source:c:\cpp\dsc\digitalsettingcircles\stardata.cpp
+	"StarData.h"
+
+1377992713 source:c:\cpp\dsc\digitalsettingcircles\test.cpp
+	<iostream>
+	"Test.h"
+	"TestCase.h"
+	"Utils.h"
+	"MathLib.h"
+	"Calc.h"
+	"Encoder.h"
+	"Data.h"
+	"Object.h"
+
+1377993539 c:\cpp\dsc\digitalsettingcircles\object.h
+	<string>
+	<vector>
+
+1377951525 source:c:\cpp\dsc\digitalsettingcircles\testcase.cpp
+	"TestCase.h"
+	"TestException.h"
+	<cmath>
+	<sstream>
+
+1377890779 c:\cpp\dsc\digitalsettingcircles\testexception.h
+	<iostream>
+	<sstream>
+	<exception>
+	<string>
+
+1377978484 source:c:\cpp\dsc\digitalsettingcircles\utils.cpp
+	<time.h>
+	"Utils.h"
+	"MathLib.h"
+	"Calc.h"
+	<unistd.h>
+	<windows.h>
+
+1377979274 source:c:\cpp\dsc\digitalsettingcircles\wiringpistub.c
+
+1377993595 source:c:\cpp\dsc\digitalsettingcircles\object.cpp
+	"Object.h"
+	<iostream>
+

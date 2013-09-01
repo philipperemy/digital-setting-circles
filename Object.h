@@ -17,10 +17,10 @@ public:
 
 
     static void fill();
-    static void release();
-    static std::vector<Object*> _objects_ptr;
+    static std::vector<Object> _objects_ptr;
 private:
     static int object_instanced_count;
+    static void release();
 };
 
 #endif // OBJECT_H

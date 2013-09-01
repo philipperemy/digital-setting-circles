@@ -459,5 +459,4 @@ void Test::test_Object()
     Object::fill();
     assertEquals(485, Object::_objects_ptr.size());
     assertEquals(485, Object::_objects_ptr.size());
-    Object::release();
 }
