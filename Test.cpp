@@ -8,6 +8,12 @@
 #include "Encoder.h"
 #include "Data.h"
 #include "Object.h"
+#include "Thread.h"
+
+#include <time.h>
+
+#include "ThreadEncoderReader.h"
+#include "ThreadTargetCalculator.h"
 
 #define pi 3.14159265358979323846
 #define INFINITY_POSITIVE 1000000000.0
@@ -17,6 +23,7 @@ void Test::run_all()
 {
     try
     {
+        //test_Thread();
         test_StarData();
         test_StarDataNamespaceFunctions();
         test_MathLib_trigonometric();
@@ -34,6 +41,18 @@ void Test::run_all()
     {
         std::cerr << fail.what() << std::endl;
     }
+}
+
+void Test::test_Thread()
+{
+    Thread * t = new ThreadEncoderReader();
+    Thread * t2  = new ThreadTargetCalculator();
+    t->start();
+    t2->start();
+    t->join();
+    t2->join();
+    delete(t);
+    delete(t2);
 }
 
 void Test::test_StarDataNamespaceFunctions()
@@ -135,7 +154,7 @@ void Test::test_MathLib_trigonometric()
     assertGreater(INFINITY_POSITIVE, MathLib::tan(pi/2));
     assertLess(INFINITY_NEGATIVE, MathLib::tan(-pi/2));
 
-        //acos
+    //acos
     assertEquals(0.0, MathLib::acos(1));
     assertEquals(pi/2, MathLib::acos(0));
     assertEquals(pi, MathLib::acos(-1));
@@ -327,7 +346,7 @@ void Test::test_Util()
 {
     setUpErrorMessage("test_Util() - failed");
 
-    int tmp = Util::getEffectiveTime();
+    long long tmp = Util::getEffectiveTime();
     Util::sleep(1000);
     assertEquals(tmp + 1, Util::getEffectiveTime());
 
@@ -343,8 +362,6 @@ void Test::test_Util()
 
     StarData starData1;
     StarData starData2;
-
-    assertTrue(!Util::goodAlignmentGeometry(starData1, starData2));
 
     starData1.az = 1;
     starData1.el = 2;

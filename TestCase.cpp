@@ -52,6 +52,15 @@ void TestCase::assertEquals(double expected, double actual)
     }
 }
 
+void TestCase::assertEquals(long long expected, long long actual)
+{
+    if(expected != actual)
+    {
+        setUpErrorMessage(exception_error_msg + ": expected = " + toString(expected) + ", actual = " + toString(actual));
+        fail();
+    }
+}
+
 void TestCase::assertEquals(int expected, int actual)
 {
     if(expected != actual)
@@ -74,6 +83,13 @@ std::string TestCase::toString(double d)
 }
 
 std::string TestCase::toString(int i)
+{
+    std::stringstream s;
+    s << i;
+    return s.str();
+}
+
+std::string TestCase::toString(long long i)
 {
     std::stringstream s;
     s << i;

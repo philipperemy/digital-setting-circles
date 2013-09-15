@@ -10,7 +10,6 @@
 class Test : public TestCase
 {
 public:
-
     void run_all();
 
     //StarData.h
@@ -36,6 +35,9 @@ public:
 
     //Object.h
     void test_Object();
+
+    //Thread.h
+    void test_Thread();
 };
 
 #endif //TEST_H

@@ -40,6 +40,9 @@
 		<Unit filename="Encoder.h" />
 		<Unit filename="MathLib.cpp" />
 		<Unit filename="MathLib.h" />
+		<Unit filename="Thread.h" />
+		<Unit filename="ThreadEncoderReader.h" />
+		<Unit filename="ThreadTargetCalculator.h" />
 		<Unit filename="StarData.cpp" />
 		<Unit filename="StarData.h" />
 		<Unit filename="TestCase.cpp" />

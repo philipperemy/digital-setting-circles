@@ -5,7 +5,7 @@
 #include "Calc.h"
 
 ///TO BE CHANGED AT COMPILE TIME
-#define WINDOWS OK
+#define LINUX OK
 
 #ifdef LINUX
 #include <unistd.h>
@@ -100,10 +100,10 @@ void Util::sleep(int sleepMs)
     #endif
 }
 
-void usleep(int sleepUs)
+void Util::usleep(int sleepUs)
 {
     #ifdef LINUX
-        usleep(sleepUs);   // usleep takes sleep time in us
+        ::usleep(sleepUs);   // usleep takes sleep time in us
     #endif
 }
 

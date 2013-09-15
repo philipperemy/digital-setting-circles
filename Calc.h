@@ -59,13 +59,11 @@ private:
 
     void printDebugMsg(std::string msg);
 
-    void printNumericDebugMsg(std::string str, double val);
-
     //        DETERMINANT SUBROUTINE
     // Scalar variable W gets set from array VV.
     // This is the only place VV is read.
     // Originally "GOSUB 650"
-    void VVtoW(void);
+    void VVtoW();
 
     //        ANGLE SUBROUTINE
     // Sets scalar variables F and H (usually Az and El) from column 1 of array YY.
@@ -85,7 +83,7 @@ private:
     // telescope angles.
     // Has Taki's 2002 bug fix.
     // Originally "GOSUB 750"
-    void AzEltoYY0(void);
+    void AzEltoYY0();
 
     //           SUBROUTINE
     // Sets column 1 of array YY based on scalar variables F and H (Az and El),
@@ -94,7 +92,7 @@ private:
     // to go from true to apparent telescope angles.
     // Originally "GOSUB 785"
     // Has Taki's bug fix.
-    void AzElToYY1(void);
+    void AzElToYY1();
 
     // This converts the true az/el (in F and H) to the
     // apparent telescope az/el (i.e. it applies the
@@ -106,15 +104,15 @@ private:
     // Function AzEltoYY0() does all the real work.
     // NOTE: This trashes array YY, so be careful where
     // you use it.
-    void ApparentToTrueAzEl(void);
+    void ApparentToTrueAzEl();
 
     // Calculate the apparent angular separation of the two stars,
     // (as stored in alignAz[] and alignEl[]), and corrected
     // by the current values of Z1, Z2, and Z3.
 
-    double calcApparentSeparation(void);
+    double calcApparentSeparation();
 
-    bool optimizeZ3(void);
+    bool optimizeZ3();
 
     ///VARIABLES///
 

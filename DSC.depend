@@ -4,6 +4,8 @@
 	"MathLib.h"
 	"Calc.h"
 
+1377993661 
+
 1377118514 source:c:\users\philippe rémy\desktop\dsc\dsc\calc.c
 	"MathLib.h"
 	"calc.h"
@@ -17,6 +19,8 @@
 
 1377118454 source:c:\users\philippe rémy\desktop\dsc\dsc\mathlib.c
 	"MathLib.h"
+
+1377986014 "
 
 1377122183 source:c:\users\philippe rémy\desktop\dsc\dsc\mathlib.cpp
 	"MathLib.h"
@@ -54,6 +58,8 @@
 1377864610 source:c:\cpp\dsc\stardata.cpp
 	"StarData.h"
 
+1377864610 h"
+
 1377979152 c:\cpp\dsc\stardata.h
 	<stdbool.h>
 	"MathLib.h"
@@ -79,6 +85,8 @@
 	<ostream>
 	<iostream>
 	"WiringPiStub.c"
+
+1377985574 tub.c"
 
 1377979274 c:\cpp\dsc\wiringpistub.c
 
@@ -154,6 +162,8 @@
 	<unistd.h>
 	<windows.h>
 
+1377978484 >
+
 1377978862 c:\cpp\dsc\utils.h
 	<stdbool.h>
 	"StarData.h"
@@ -200,14 +210,14 @@
 	<string>
 	<vector>
 
-1377122480 source:c:\cpp\dsc\digitalsettingcircles\calc.cpp
+1378065989 source:c:\cpp\dsc\digitalsettingcircles\calc.cpp
 	"MathLib.h"
 	"Calc.h"
 	<iostream>
 
 1377958940 c:\cpp\dsc\digitalsettingcircles\mathlib.h
 
-1377120178 c:\cpp\dsc\digitalsettingcircles\calc.h
+1378065811 c:\cpp\dsc\digitalsettingcircles\calc.h
 	<stdbool.h>
 	<string>
 
@@ -270,7 +280,7 @@
 1377864610 source:c:\cpp\dsc\digitalsettingcircles\stardata.cpp
 	"StarData.h"
 
-1377992713 source:c:\cpp\dsc\digitalsettingcircles\test.cpp
+1378237432 source:c:\cpp\dsc\digitalsettingcircles\test.cpp
 	<iostream>
 	"Test.h"
 	"TestCase.h"
@@ -281,7 +291,7 @@
 	"Data.h"
 	"Object.h"
 
-1377993539 c:\cpp\dsc\digitalsettingcircles\object.h
+1377993649 c:\cpp\dsc\digitalsettingcircles\object.h
 	<string>
 	<vector>
 
@@ -307,7 +317,138 @@
 
 1377979274 source:c:\cpp\dsc\digitalsettingcircles\wiringpistub.c
 
-1377993595 source:c:\cpp\dsc\digitalsettingcircles\object.cpp
+1377993661 source:c:\cpp\dsc\digitalsettingcircles\object.cpp
 	"Object.h"
+	<iostream>
+
+1378243014 source:/home/philippe/Desktop/DSC/Calc.cpp
+	"MathLib.h"
+	"Calc.h"
+	<iostream>
+
+1378243014 /home/philippe/Desktop/DSC/MathLib.h
+
+1378243014 /home/philippe/Desktop/DSC/Calc.h
+	<stdbool.h>
+	<string>
+
+1378243014 source:/home/philippe/Desktop/DSC/Data.cpp
+	"Data.h"
+	<cmath>
+
+1378243014 /home/philippe/Desktop/DSC/Data.h
+	<stdbool.h>
+	<string>
+	"MathLib.h"
+	"StarData.h"
+	"Utils.h"
+	"Calc.h"
+
+1378243014 /home/philippe/Desktop/DSC/StarData.h
+	<stdbool.h>
+	"MathLib.h"
+	<cmath>
+
+1378243014 /home/philippe/Desktop/DSC/Utils.h
+	<stdbool.h>
+	"StarData.h"
+
+1378243014 source:/home/philippe/Desktop/DSC/Encoder.cpp
+	"Encoder.h"
+
+1378243014 /home/philippe/Desktop/DSC/Encoder.h
+	<vector>
+	<ostream>
+	<iostream>
+	"WiringPiStub.c"
+
+1378243014 /home/philippe/Desktop/DSC/WiringPiStub.c
+
+1378243014 source:/home/philippe/Desktop/DSC/main.cpp
+	<iostream>
+	"MathLib.h"
+	"Calc.h"
+	"StarData.h"
+	"Encoder.h"
+	"Test.h"
+
+1378243014 /home/philippe/Desktop/DSC/Test.h
+	<stdbool.h>
+	"StarData.h"
+	"TestCase.h"
+	<string>
+
+1378243349 /home/philippe/Desktop/DSC/TestCase.h
+	<stdbool.h>
+	"StarData.h"
+	<string>
+
+1378243014 source:/home/philippe/Desktop/DSC/MathLib.cpp
+	"MathLib.h"
+	<math.h>
+	<cmath>
+
+1378243014 source:/home/philippe/Desktop/DSC/Object.cpp
+	"Object.h"
+	<iostream>
+
+1378243014 /home/philippe/Desktop/DSC/Object.h
+	<string>
+	<vector>
+
+1378243014 source:/home/philippe/Desktop/DSC/StarData.cpp
+	"StarData.h"
+
+1378243350 source:/home/philippe/Desktop/DSC/TestCase.cpp
+	"TestCase.h"
+	"TestException.h"
+	<cmath>
+	<sstream>
+
+1378243014 /home/philippe/Desktop/DSC/TestException.h
+	<iostream>
+	<sstream>
+	<exception>
+	<string>
+
+1378243414 source:/home/philippe/Desktop/DSC/Utils.cpp
+	<time.h>
+	"Utils.h"
+	"MathLib.h"
+	"Calc.h"
+	<unistd.h>
+	<windows.h>
+
+1378243014 source:/home/philippe/Desktop/DSC/WiringPiStub.c
+
+1379251458 source:/home/philippe/Desktop/DSC/Test.cpp
+	<iostream>
+	"Test.h"
+	"TestCase.h"
+	"Utils.h"
+	"MathLib.h"
+	"Calc.h"
+	"Encoder.h"
+	"Data.h"
+	"Object.h"
+	"Thread.h"
+	<time.h>
+	"ThreadEncoderReader.h"
+	"ThreadTargetCalculator.h"
+
+1378410513 /home/philippe/Desktop/DSC/Thread.h
+	<pthread.h>
+	<exception>
+	<stdexcept>
+	<iostream>
+
+1378412808 /home/philippe/Desktop/DSC/ThreadEncoderReader.h
+	"Thread.h"
+	<iostream>
+	<unistd.h>
+	<sys/time.h>
+
+1378412766 /home/philippe/Desktop/DSC/ThreadTargetCalculator.h
+	"Thread.h"
 	<iostream>
 

@@ -13,14 +13,7 @@ void Calc::printDebugMsg(std::string msg)
     std::cerr << msg << std::endl;
 }
 
-
-void printNumericDebugMsg(std::string str, double val)
-{
-    std::cerr << str << " " << val << std::endl;
-}
-
-
-void Calc::VVtoW(void)
+void Calc::VVtoW()
 {
  W = VV[1][1]*VV[2][2]*VV[3][3]+VV[1][2]*VV[2][3]*VV[3][1];
  W = W+VV[1][3]*VV[3][2]*VV[2][1];
@@ -68,7 +61,7 @@ void Calc::YY1toFH(bool flipped)
 }
 
 
-void Calc::AzEltoYY0(void)
+void Calc::AzEltoYY0()
 {
   H += Z3;
   YY[1][0] = MathLib::cos(F)*MathLib::cos(H) - MathLib::sin(F)*Z2 + MathLib::sin(F)*MathLib::sin(H)*Z1;
@@ -93,7 +86,7 @@ void Calc::TrueToApparentAzEl(bool flipped)
 }
 
 
-void Calc::ApparentToTrueAzEl(void)
+void Calc::ApparentToTrueAzEl()
 {
   int J;
 
@@ -104,7 +97,7 @@ void Calc::ApparentToTrueAzEl(void)
 }
 
 
-double Calc::calcApparentSeparation(void)
+double Calc::calcApparentSeparation()
 {
   double corrAz1, corrAz2, corrEl1, corrEl2;
 
@@ -124,7 +117,7 @@ double Calc::calcApparentSeparation(void)
 }
 
 
-bool Calc::optimizeZ3(void)
+bool Calc::optimizeZ3()
 {
 
   double maxGuess;
@@ -138,8 +131,7 @@ bool Calc::optimizeZ3(void)
 
   // Calculate the true angular separation of the two stars,
   // based on their RA/Dec.  This need be calculated only once.
-  const double trueSep =
-	calcSeparation(alignRA[1], alignDec[1], alignRA[2], alignDec[2]);
+  const double trueSep = calcSeparation(alignRA[1], alignDec[1], alignRA[2], alignDec[2]);
 
   if (!MathLib::finite(trueSep)) {
     printDebugMsg("Can't calculate star separation!");
@@ -262,7 +254,7 @@ void Calc::setZ123(double z1, double z2, double z3)
 }
 
 
-double Calc::getZ3(void)
+double Calc::getZ3()
 {
   return Z3*degPerRad;
 }
